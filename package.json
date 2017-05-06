@@ -1,14 +1,22 @@
 {
   "name": "burger",
   "version": "1.0.0",
-  "description": "burger-handlebar",
-  "main": "sever.js",
+  "description": "Creating a Burger app for restaurant",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/karlosgardner/Burger-app.git"
+  },
   "author": "Karlos Gardner",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/karlosgardner/Burger-app/issues"
+  },
+  "homepage": "https://github.com/karlosgardner/Burger-app#readme",
   "dependencies": {
     "body-parser": "^1.17.1",
     "express": "^4.15.2",
